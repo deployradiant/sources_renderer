@@ -4,7 +4,6 @@ A simple TSX component to render source references in PDFs and highlight them tr
 
 ```TSX
 <SourceRenderer
-  className="w-full"
   sources={/* sources from the Radiant API */}
   document_urls={/* A dictonary from document id => PDF url */}
 />
